@@ -236,7 +236,7 @@ export default function App() {
                 <img
                   src={fotoDePerfil}
                   alt="Mauro Maleski - Tucano TI"
-                  className="w-full h-full object-cover transition-all duration-500 "
+                  className="w-full h-full object-cover transition-all duration-500 e"
                   referrerPolicy="no-referrer"
                 />
               </div>
