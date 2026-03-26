@@ -232,17 +232,17 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="relative">
-              <div className="aspect-square rounded-3xl overflow-hidden border-2 border-white/10">
+              <div className="aspect-square rounded-3xl overflow-hidden border-2 border-white/10 ">
                 <img
                   src={fotoDePerfil}
                   alt="Mauro Maleski - Tucano TI"
-                  className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
+                  className="w-full h-full object-cover transition-all duration-500 "
                   referrerPolicy="no-referrer"
                 />
               </div>
-              <div className="absolute -bottom-8 right-0 glass-card p-6 max-w-[240px]">
-                <p className="text-sm font-bold mb-1">Mauro Maleski</p>
-                <p className="text-xs text-brand-pink font-mono uppercase tracking-tighter">
+              <div className="absolute -bottom-20 right-0 glass-card p-6 max-w-[240px]">
+                <p className="text-[25px] font-bold mb-1">Mauro Maleski</p>
+                <p className="text-center text-[#9400D3] font-mono uppercase tracking-tighter">
                   Full Stack Developer & TI Expert
                 </p>
               </div>
