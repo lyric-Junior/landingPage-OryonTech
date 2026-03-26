@@ -1,0 +1,2 @@
+This landing Page is a react app, created using google ai studio and edited manually.
+Made for my Informatics Suport empress marketing and digital authority, it can be used for creative commons, but the photos can't be used for own gains or commercial use.
