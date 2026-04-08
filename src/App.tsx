@@ -2,6 +2,7 @@
  * @license
  * SPDX-License-Identifier: Apache-2.0
  */
+import { Analytics } from '@vercel/analytics/next'
 import { FaInstagram } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -61,6 +62,7 @@ export default function App() {
                 rel="noopener noreferrer"
                 className="bg-gradient-to-r from-brand-purple to-brand-pink px-5 py-2 rounded-full text-white hover:opacity-90 transition-opacity flex items-center gap-2"
               >
+                <Analytics />
                 <FaWhatsapp size={18} />
                 WhatsApp
               </a>
